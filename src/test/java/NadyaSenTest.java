@@ -37,7 +37,7 @@ public class NadyaSenTest {
         WebElement h2CityCountryHeader = driver.findElement(
                 By.xpath("//div[@id='weather-widget']//h2"));
 
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         String actualResult = h2CityCountryHeader.getText();
 
         Assert.assertEquals(actualResult, expectedResult);
